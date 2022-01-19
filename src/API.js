@@ -1,8 +1,8 @@
 export const optionsCoinsAPI = {
   method: "GET",
-  url: "https://coinranking1.p.rapidapi.com",
+  url: `${process.env.REACT_APP_URL_BACKPOINT}`,
   headers: {
-    "x-rapidapi-host": "coinranking1.p.rapidapi.com",
-    "x-rapidapi-key": "2959319371msha5a0b50b378e2c2p145afdjsn173be72cc5ed",
+    "x-rapidapi-host": `${process.env.REACT_APP_APP_HOST}`,
+    "x-rapidapi-key": `${process.env.REACT_APP_APP_KEY}`,
   },
 };
